@@ -23,11 +23,11 @@ package com.cognizant.shapes;
      }
 
     	else if(sph.noOfSides==3) {
-         System.out.println("The area of circle is " + tir.calculateArea());
+         System.out.println("The area of Triangle is " + tir.calculateArea());
      }
 
     	else if(sph.noOfSides==4) {
-         System.out.println("The area of circle is " + sqr.calculateArea());
+         System.out.println("The area of squre is " + sqr.calculateArea());
      }
     	else {
             System.out.println("No shapes present ");
