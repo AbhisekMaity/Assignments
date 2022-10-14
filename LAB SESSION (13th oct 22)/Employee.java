@@ -17,30 +17,30 @@ public Employee(long Id,String Name,String address,Long phone){
 
 	}
 	
-	public long getEmployeeId() {
-		return employeeId;
-	}
-	public void setEmployeeId(long Id) {
-		employeeId = Id;
-	}
-	public String getEmployeeName() {
-		return employeeName;
-	}
-	public void setEmployeeName(String Name) {
-		employeeName = Name;
-	}
-	public String getEmployeeAddress() {
-		return employeeAddress;
-	}
-	public void setEmployeeAddress(String address) {
-		employeeAddress = address;
-	}
-	public long getEmployeePhone() {
-		return employeePhone;
-	}
-	public void setEmployeePhone(long phone) {
-	employeePhone = phone;
-	}
+// 	public long getEmployeeId() {
+// 		return employeeId;
+// 	}
+// 	public void setEmployeeId(long Id) {
+// 		employeeId = Id;
+// 	}
+// 	public String getEmployeeName() {
+// 		return employeeName;
+// 	}
+// 	public void setEmployeeName(String Name) {
+// 		employeeName = Name;
+// 	}
+// 	public String getEmployeeAddress() {
+// 		return employeeAddress;
+// 	}
+// 	public void setEmployeeAddress(String address) {
+// 		employeeAddress = address;
+// 	}
+// 	public long getEmployeePhone() {
+// 		return employeePhone;
+// 	}
+// 	public void setEmployeePhone(long phone) {
+// 	employeePhone = phone;
+// 	}
 	public void calculateSalary() {
 		double salary=  basicSalary + ( basicSalary * specialAllowance/100) + ( basicSalary * Hra/100); 
 	  System.out.println("The salary is " +salary);
