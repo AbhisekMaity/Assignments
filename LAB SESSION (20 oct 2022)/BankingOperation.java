@@ -19,12 +19,12 @@ public class BankingOperation {
 	private String accountName;
 	private double accountBalance;
 	double amount;
-	BankingOperation(int accountNumber,String accountName,double accountBalance){
+	BankingOperation(int accountNumber,String accountName,double accountBalance){  // constructor
 		this.accountNumber=accountNumber;
 		this.accountName=accountName;
 		this.accountBalance=accountBalance;
 	}
-	public void setAmount(double amount) {
+	public void setAmount(double amount) {  // here we add amount
 		this.amount=amount;
 		this.accountBalance=this.accountBalance+amount;
 	}
@@ -32,7 +32,7 @@ public class BankingOperation {
 		System.out.println("AccountBalance " +this.accountBalance);
 		System.out.println("AccountName " +this.accountName);
 	}
-	public void withdrawAmount(int withAmount) {
+	public void withdrawAmount(int withAmount) {  // here we  withdraw amount 
 		this.accountBalance=this.accountBalance-withAmount;
 	}
 }
